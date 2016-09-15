@@ -8,7 +8,7 @@ another TCP address. Also could be called a proxy or a pipe.
 
 	$ netln [-s <max-speed>] <remote-addr> <listen-addr>
 
-The `s` specifies trasfer speed limit as string in form
+The `s` flag specifies trasfer speed limit as string in form
 `<number>[<unit>]` where possible units are "K" for Kbps and "M" for
 Mbps. If no unit is given, bytes per second are assumed.
 
